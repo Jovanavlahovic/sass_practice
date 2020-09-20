@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Open Sans";
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/bg.jpg");
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.title {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+
+header {
+  background-color: #b10f0f;
+  width: 100%;
+  padding: 0 15px 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 0 0 15px 15px;
+}
+header h1 {
+  font-size: 48px;
+  color: black;
+  padding-left: 15px;
+}
+header nav {
+  width: 40%;
+  height: 100%;
+  float: right;
+  text-align: right;
+}
+header ul {
+  list-style-type: none;
+  height: 100%;
+}
+header ul li {
+  display: inline-block;
+  background-color: black;
+  border-radius: 0 0 20px 20px;
+  padding: 60px 3px 0 3px;
+  margin: 0 5px;
+}
+header ul li img {
+  height: 30px;
+}
+
+.content {
+  margin: 30px auto;
+  padding: 15px;
+  background-color: black;
+  color: #fff;
+  text-align: justify;
+  width: 100%;
+  float: left;
+  border-radius: 4px;
+}
+
+.content .topContent {
+  width: 100%;
+  float: left;
+}
+.content .topContent img {
+  width: 30%;
+  float: left;
+}
+.content .topContent .topRight {
+  width: 65%;
+  float: right;
+}
+.content .topContent .topRight h2 {
+  float: right;
+  clear: both;
+  width: 140px;
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+  text-align: center;
+}
+.content .topContent .topRight p {
+  float: right;
+}
+
+.bottomContent {
+  width: 100%;
+  float: left;
+}
+
+.box {
+  width: 33%;
+  float: left;
+  text-align: justify;
+  padding: 10px;
+  margin: 0 auto;
+}
+.box h3 {
+  background-color: #b10f0f;
+  border-radius: 4px;
+  padding: 5px;
+}
+.box:not(:first-child) {
+  border-left: 1px solid #fff;
+}
+.box a {
+  width: 40%;
+  background-color: white;
+  padding: 6px;
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  color: #b10f0f;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #fff;
+  float: left;
+  padding: 10px 10px 5px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
